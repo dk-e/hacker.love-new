@@ -5,6 +5,7 @@
 }
 
 body {
+  background-color: black;
   margin: 0;
   overflow-x: hidden;
 }
@@ -351,11 +352,11 @@ h4 {
   .enter-screen {
       width: 300px;
   }
-  body {
+
+body {
     margin: 0;
     overflow-x: hidden;
   }
-}
 
 .volume {
   position: fixed;
