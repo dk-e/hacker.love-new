@@ -1,0 +1,373 @@
+<!DOCTYPE html><html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Cache-control" content="public">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="icon" href="images/windows-0.png" type="image/png">
+    <link rel="preload" href="css/main.css" as="style">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/98.css"> 
+    <script src="https://kit.fontawesome.com/cf16def632.js" crossorigin="anonymous" defer></script>
+  
+    <link href="https://fonts.cdnfonts.com/css/vcr-osd-mono" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+  
+  
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/audio.js"></script>
+  
+    <title>hacker.love</title>
+    <meta name="theme-color" content="#000">
+    <meta property="og:title" content="hacker.love">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="1337">
+  </head>
+  
+  <body class="loaded">
+    <script>
+      $(function () {
+        $(".draggable").draggable({
+          start: function () {
+            $(this).css({ transform: "none", top: $(this).offset().top + "px", left: $(this).offset().left + "px" });
+          }
+        });
+      });
+    </script>
+<div id="enter">
+    <div class="window enter-screen">
+      <div class="title-bar">
+        <div class="title-bar-text">Welcome To Windows</div>
+        <div class="title-bar-controls">
+          <button aria-label="Close"></button>
+        </div>
+      </div>
+      <div class="window-wrapper">
+        <div class="window-content">
+          <form data-bitwarden-watching="1">
+            <fieldset>
+              
+                <div style="color: black;">							
+                  <p style="margin-bottom: 0.5rem;">Type any username and password to enter Windows.</p>
+                  <div class="field-row">
+                    <label for="username">Username</label>
+                    <input x-ref="username" style="margin-left: 0.95rem;width: 11.05rem;" id="username" type="text">
+                  </div>
+                  <div class="field-row">
+                    <label for="password">Password</label>
+                    <input x-ref="password" style="margin-left: 1rem;width: 11.05rem;" id="password" type="password">
+                  </div>
+                </div>
+              
+            </fieldset></form>
+          
+        </div>
+
+        <div class="window-actions">
+          <button class="window-action-button main">OK</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+    <div id="main">
+      <div id="desktop">
+  
+        <canvas id="audioVisualizer" width="400" height="100"></canvas>
+
+
+        <br><br>
+        <center>
+          <h4 style="color: #fff">hacker.love</h4>
+          <h5 style="color: #fff">Credits to scary.sh</h5>
+          <h4 style="color: #fff; top: 70px !important; font-size: 0.5em !important" id="mobile-notice"></h4>
+        </center>
+  
+        <div class="row">
+          <div class="desktop-icons">
+            <div class="desktop-icon zurly no-border" onclick="showPopup('PopUpZurly')" title="zurly">
+              zurly
+            </div>
+    
+            <div class="desktop-icon zui ZuiClose" onclick="showPopup('PopUpZui')" title="zui">
+              zui
+            </div>
+    
+            <div class="desktop-icon jamari JamariClose" onclick="showPopup('PopUpJamari')" title="jamari">
+              jamari
+            </div>
+
+            <div class="desktop-icon gov GovClose" onclick="showPopup('PopUpGov')" title="gov">
+              gov
+            </div>
+
+            <div class="desktop-icon yung YungClose" onclick="showPopup('PopUpYung')" title="yung">
+              yung
+            </div>
+
+            <div class="desktop-icon h HClose" onclick="showPopup('PopUpH')" title="h">
+              h
+            </div>
+
+            <div class="desktop-icon xra XraClose" onclick="showPopup('PopUpXra')" title="xra">
+              xra
+            </div>
+
+          </div>
+    
+          <div class="desktop-icons-2">
+            <div class="desktop-icon yan no-border" onclick="showPopup('PopUpYan')" title="yan">
+              yan
+            </div>
+  
+            <div class="desktop-icon vesu VesuClose" onclick="showPopup('PopUpVesu')" title="vesu">
+              vesu
+            </div>
+          </div>
+        </div>
+
+        <div id="toolbar">
+          <div class="toolbar-start-menu">
+            <button onclick="refreshPage()" class="start-button">
+                Start
+              </button>
+              
+              <script>
+                function refreshPage() {
+                  location.reload();
+                }
+              </script>
+              
+          </div>
+          <div class="toolbar-separator"></div>
+  
+          <div class="toolbar-left">
+            <button class="toolbar-icon zurly" onclick="showPopup('PopUpZurly')"></button>
+            <div class="window draggable" id="PopUpZurly" style="margin: 32px; width: 250px; display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+              <div class="title-bar">
+                <div class="title-bar-text">Zurly</div>
+                <div class="title-bar-controls">
+                  <button class="ZurlyClose" aria-label="Close"></button>
+                </div>
+              </div>
+              <div class="window-body">
+                <center>
+                  <img src="members/zurly.png" height="48px" width="48px">
+                  <p>> <a target="_blank" href="https://t.me/reIiefs">tele</a><br>
+                    > <a target="_blank" href="https://x.com/seIect">twitter</a>
+                  </p>
+                  <section class="field-row" style="justify-content: center">
+                    <button class="ZurlyOK" aria-label="OK" style="margin-top:10px;">OK</button>
+                  </section>
+                </center>
+              </div>
+            </div>
+  
+            <button class="toolbar-icon zui" onclick="showPopup('PopUpZui')"></button>
+            <div class="window draggable" id="PopUpZui" style="margin: 32px; width: 250px; display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+              <div class="title-bar">
+                <div class="title-bar-text">Zui</div>
+                <div class="title-bar-controls">
+                  <button class="ZuiClose" aria-label="Close"></button>
+                </div>
+              </div>
+              <div class="window-body">
+                <center>
+                  <img src="members/zui.png" height="48px" width="48px">
+                  <p>> <a target="_blank" href="https://t.me/zuii1337">tele</a><br>
+
+                  </p>
+                  <section class="field-row" style="justify-content: center">
+                    <button class="ZuiOK" aria-label="OK" style="margin-top:10px;">OK</button>
+                  </section>
+                </center>
+              </div>
+            </div>
+  
+            <button class="toolbar-icon jamari" onclick="showPopup('PopUpJamari')"></button>
+            <div class="window draggable" id="PopUpJamari" style="margin: 32px; width: 250px; display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+              <div class="title-bar">
+                <div class="title-bar-text">Jamari</div>
+                <div class="title-bar-controls">
+                  <button class="JamariClose" aria-label="Close"></button>
+                </div>
+              </div>
+              <div class="window-body">
+                <center>
+                  <img src="members/jamari.png" height="48px" width="48px">
+                  <p>> <a target="_blank" href=" https://t.me/thefting">tele</a><br>
+                    > <a target="_blank" href="https://x.com/hitstreaks">twitter</a>
+                  </p>
+                  <section class="field-row" style="justify-content: center">
+                    <button class="JamariOK" aria-label="OK" style="margin-top:10px;">OK</button>
+                  </section>
+                </center>
+              </div>
+            </div>
+
+            <div class="window draggable" id="PopUpGov" style="margin: 32px; width: 250px; display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+              <div class="title-bar">
+                <div class="title-bar-text">Gov</div>
+                <div class="title-bar-controls">
+                  <button class="GovClose" aria-label="Close"></button>
+                </div>
+              </div>
+              <div class="window-body">
+                <center>
+                  <img src="members/gov.png" height="48px" width="48px">
+                  <p>> <a target="_blank" href="https://t.me/illegalising">tele</a><br>
+
+                  </p>
+                  <section class="field-row" style="justify-content: center">
+                    <button class="GovOK" aria-label="OK" style="margin-top:10px;">OK</button>
+                  </section>
+                </center>
+              </div>
+            </div>
+
+            <div class="window draggable" id="PopUpYung" style="margin: 32px; width: 250px; display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+              <div class="title-bar">
+                <div class="title-bar-text">Yung</div>
+                <div class="title-bar-controls">
+                  <button class="YungClose" aria-label="Close"></button>
+                </div>
+              </div>
+              <div class="window-body">
+                <center>
+                  <img src="members/yung.png" height="48px" width="48px">
+                  <p>> <a target="_blank" href=" https://logge.rs">site</a><br>
+                  </p>
+                  <section class="field-row" style="justify-content: center">
+                    <button class="YungOK" aria-label="OK" style="margin-top:10px;">OK</button>
+                  </section>
+                </center>
+              </div>
+            </div>
+
+            <div class="window draggable" id="PopUpH" style="margin: 32px; width: 250px; display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+              <div class="title-bar">
+                <div class="title-bar-text">H</div>
+                <div class="title-bar-controls">
+                  <button class="HClose" aria-label="Close"></button>
+                </div>
+              </div>
+              <div class="window-body">
+                <center>
+                  <img src="members/h.png" height="48px" width="48px">
+                  <p>> <a target="_blank" href=" https://tiktok.com/@promising">tiktok</a><br>
+                    > <a target="_blank" href="https://x.com/nefs">twitter</a>
+                  </p>
+                  <section class="field-row" style="justify-content: center">
+                    <button class="HOK" aria-label="OK" style="margin-top:10px;">OK</button>
+                  </section>
+                </center>
+              </div>
+            </div>
+
+            <div class="window draggable" id="PopUpXra" style="margin: 32px; width: 250px; display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+              <div class="title-bar">
+                <div class="title-bar-text">Xra</div>
+                <div class="title-bar-controls">
+                  <button class="XraClose" aria-label="Close"></button>
+                </div>
+              </div>
+              <div class="window-body">
+                <center>
+                  <img src="members/xra.png" height="48px" width="48px">
+                  <p>> <a target="_blank" href="https://t.me/xrafw">tele</a><br>
+                    > <a target="_blank" href="https://guns.lol/hi">socials</a>
+                  </p>
+                  <section class="field-row" style="justify-content: center">
+                    <button class="XraOK" aria-label="OK" style="margin-top:10px;">OK</button>
+                  </section>
+                </center>
+              </div>
+            </div>
+
+            <div class="window draggable" id="PopUpYan" style="margin: 32px; width: 250px; display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+              <div class="title-bar">
+                <div class="title-bar-text">Yan</div>
+                <div class="title-bar-controls">
+                  <button class="YanClose" aria-label="Close"></button>
+                </div>
+              </div>
+              <div class="window-body">
+                <center>
+                  <img src="members/yan.png" height="48px" width="48px">
+                  <p>> <a target="_blank" href="https://t.me/apologisers">tele</a><br>
+                  </p>
+                  <section class="field-row" style="justify-content: center">
+                    <button class="YanOK" aria-label="OK" style="margin-top:10px;">OK</button>
+                  </section>
+                </center>
+              </div>
+            </div>
+
+            <div class="window draggable" id="PopUpVesu" style="margin: 32px; width: 250px; display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+              <div class="title-bar">
+                <div class="title-bar-text">Vesu</div>
+                <div class="title-bar-controls">
+                  <button class="VesuClose" aria-label="Close"></button>
+                </div>
+              </div>
+              <div class="window-body">
+                <center>
+                  <img src="members/vesu.png" height="48px" width="48px">
+                  <p>> <a target="_blank" href="https://t.me/drippings">tele</a><br>
+                    > <a target="_blank" href="https://tiktok.com/@fartless">tiktok</a>
+                  </p>
+                  <section class="field-row" style="justify-content: center">
+                    <button class="VesuOK" aria-label="OK" style="margin-top:10px;">OK</button>
+                  </section>
+                </center>
+              </div>
+            </div>
+  
+        </div>
+  
+          <audio id="audio" loop preload="none" tabindex="0">
+            <source src="media/audio.mp3" data-track-number="1">
+          </audio>
+  
+  
+  
+          <ul id="trackList" style="display: none;">
+            <li data-track-number="1">Meekz - Like Me</li>
+          </ul>
+  
+          <div class="window volume" id="volume" style="position: fixed; width: 200px; display: none;">
+            <div class="title-bar">
+              <div class="title-bar-text">Volume</div>
+            </div>
+            <div class="window-body">
+              <p> Currently playing:</p>
+              <ul id="songInfo">
+                <li id="songTitle">Meekz - Like Me</li>
+                <li id="songTime">0:00</li>
+                <li><input id="range26" type="range" min="0" max="50" value="50"></li>
+              </ul>
+            </div>
+            <div class="status-bar">
+              <p id="backward" class="status-bar-field fa-solid fa-backward"></p>
+              <p id="pause" class="status-bar-field fa-solid fa-pause"></p>
+              <p id="forward" class="status-bar-field fa-solid fa-forward"></p>
+            </div>
+  
+          </div>
+  
+          <div class="toolbar-separator"></div>
+          <div class="toolbar-right field-row" style="width: 106px;">
+            <img src="images/sound.png" alt="Tab" onclick="togglePopup('volume')" height="24" width="">
+  
+            <div class="time"><span class="hour"></span>:<span class="minutes"></span> AM</div>
+  
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+  
+  </body></html>
