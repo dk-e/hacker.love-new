@@ -30,6 +30,7 @@ body {
 
 body {
   font-family: "MS Sans Serif";
+  background-color: black;
   letter-spacing: 0.001em;
   font-size: 14px;
   font-smooth: none;
