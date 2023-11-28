@@ -3,19 +3,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta http-equiv="Cache-control" content="public">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <link rel="icon" href="images/windows-0.png" type="image/png">
+    <link rel="icon" type="image/x-icon" href="">
     <link rel="preload" href="css/main.css" as="style">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/98.css"> 
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script src="https://kit.fontawesome.com/cf16def632.js" crossorigin="anonymous" defer></script>
-  
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
     <link href="https://fonts.cdnfonts.com/css/vcr-osd-mono" rel="stylesheet">
     <link rel="stylesheet" href="css/all.css">
   
-  
-    <script src="js/jquery-3.6.0.min.js"></script>
+
     <link rel="stylesheet" href="css/jquery-ui.css">
     <script src="js/jquery-ui.min.js"></script>
+    <script src="js/app.js"></script>
     <script src="js/index.js"></script>
     <script src="js/audio.js"></script>
   
@@ -81,7 +83,10 @@
         <br><br>
         <center>
           <h4 style="color: #fff">hacker.love</h4>
-          <h5 style="color: #fff">Credits to valhal.la</h5>
+          <h5 style="color: #fff">- CREDITS -</h5>
+          <h5 style="color: #fff">valhal.la</h5>
+          <h5 style="color: #fff">scary.sh</h5>
+          <h5 style="color: #fff">brute.sh</h5>
           <h4 style="color: #fff; top: 70px !important; font-size: 0.5em !important" id="mobile-notice"></h4>
         </center>
   
@@ -124,6 +129,10 @@
   
             <div class="desktop-icon vesu VesuClose" onclick="showPopup('PopUpVesu')" title="vesu">
               vesu
+            </div>
+
+            <div class="desktop-icon zee ZeeClose" onclick="showPopup('PopUpZee')" title="zee">
+              zee
             </div>
           </div>
         </div>
@@ -237,8 +246,7 @@
               <div class="window-body">
                 <center>
                   <img src="members/yung.png" height="48px" width="48px">
-                  <p>> <a target="_blank" href="https://t.me/yunglol">tele</a><br>
-                  <p>> <a target="_blank" href=" https://logge.rs">site</a>
+                  <p>> <a target="_blank" href=" https://logge.rs">site</a><br>
                   </p>
                   <section class="field-row" style="justify-content: center">
                     <button class="YungOK" aria-label="OK" style="margin-top:10px;">OK</button>
@@ -325,23 +333,46 @@
                 </center>
               </div>
             </div>
-  
+
+            <button class="toolbar-icon zee" onclick="showPopup('PopUpZee')"></button>
+            <div class="window draggable" id="PopUpZee" style="margin: 32px; width: 250px; display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+              <div class="title-bar">
+                <div class="title-bar-text">Zee</div>
+                <div class="title-bar-controls">
+                  <button class="ZeeClose" aria-label="Close"></button>
+                </div>
+              </div>
+            
+              <div class="window-body">
+                <center>
+                  <img src="members/zee.png" height="48px" width="48px">
+                  <p>> <a target="_blank" href="https://www.roblox.com/users/4748218165/profile">roblox</a><br>
+                    > <a target="_blank" href="https://tiktok.com/@grrunting">tiktok</a>
+                  </p>
+                  <section class="field-row" style="justify-content: center">
+                    <button class="ZeeOK" aria-label="OK" style="margin-top:10px;">OK</button>
+                  </section>
+                </center>
+              </div>
+            </div>
         </div>
   
           <audio id="audio" preload="none" tabindex="0">
-            <source src="media/audio.mp3" data-track-number="1">
+            <source src="media/audio-4.mp3" data-track-number="1">
             <source src="media/audio-2.mp3" data-track-number="2">
             <source src="media/audio-3.mp3" data-track-number="3">
+            <source src="media/audio.mp3" data-track-number="4">
           </audio>
   
   
   
           <ul id="trackList" style="display: none;">
-            <li data-track-number="1">Meekz - Like Me</li>
+            <li data-track-number="1">rich amiri - one call</li>
             <li data-track-number="2">Bandokay - Daily Duppy</li>
-            <li data-track-number="3">Suspect (AGB) - Freestyle</li>
+            <li data-track-number="3">Suspect - Freestyle</li>
+            <li data-track-number="4">Meekz - Like Me</li>
           </ul>
-  
+          
           <div class="window volume" id="volume" style="position: fixed; width: 200px; display: none;">
             <div class="title-bar">
               <div class="title-bar-text">Volume</div>
@@ -349,7 +380,7 @@
             <div class="window-body">
               <p> Currently playing:</p>
               <ul id="songInfo">
-                <li id="songTitle">Meekz - Like Me</li>
+                <li id="songTitle">ME - OW</li>
                 <li id="songTime">0:00</li>
                 <li><input id="range26" type="range" min="0" max="50" value="50"></li>
               </ul>

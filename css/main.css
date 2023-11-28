@@ -1,11 +1,18 @@
+
 * {
   box-sizing: border-box;
   margin: 0;
   overflow: hidden;
 }
+body, a, h4, #toolbar, .desktop-icons, .desktop-icons-2, .status-bar, .status-bar-field {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  font-weight: bold;
+}
 
 body {
-  background-color: black;
   margin: 0;
   overflow-x: hidden;
 }
@@ -192,6 +199,12 @@ body {
   z-index: 100 !important;
 }
 
+#toolbar .toolbar-icon.zee {
+  background-image: url(../members/zee.png);
+  background-repeat: no-repeat;
+  background-size: 24px 24px;
+  z-index: 100 !important;
+}
 
 #toolbar .toolbar-right {
   float: right;
@@ -297,6 +310,13 @@ body {
   z-index: 100 !important;
 }
 
+.desktop-icons-2 .desktop-icon.zee {
+  background-image: url(../members/zee.png);
+  background-repeat: no-repeat;
+  background-size: 48px 48px;
+  z-index: 100 !important;
+}
+
 .custom-button {
   border: none !important;
 }
@@ -352,11 +372,11 @@ h4 {
   .enter-screen {
       width: 300px;
   }
-
-body {
+  body {
     margin: 0;
     overflow-x: hidden;
   }
+}
 
 .volume {
   position: fixed;
