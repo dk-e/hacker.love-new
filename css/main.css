@@ -179,7 +179,7 @@ body {
 }
 
 #toolbar .toolbar-icon.zurly {
-  background-image: url(../members/zurly-modified.png);
+  background-image: url(../members/zurly.png);
   background-repeat: no-repeat;
   background-size: 24px 24px;
   z-index: 100 !important;
