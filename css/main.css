@@ -29,7 +29,7 @@ body {
 }
 
 body {
-  font-family: "MS Sans Serif";
+  font-family: "Poppins";
   background-color: black;
   letter-spacing: 0.001em;
   font-size: 14px;
@@ -325,7 +325,11 @@ body {
 h4 {
   text-transform: uppercase;
   font-size: 2px;
-  font-family: "VCR OSD Mono", sans-serif;
+  font-family: "Poppins", sans-serif;
+  background: url(../images/gifz.gif);
+  color: #fff;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .draggable {
@@ -347,20 +351,24 @@ h4 {
 
 @media only screen and (max-width: 600px) {
   #enter {
-      background-image: url("../images/mobile-girl.png");
+      background-image: url("https://i.zurly.lol/file/tmZh.png");
       z-index: 1;
   }
 
   #desktop {
-      background-image: url("../images/mobile-girl.png");
+      background-image: url("https://i.zurly.lol/file/tmZh.png");
       z-index: 1;
+  }
+  
+  #audioVisualizer {
+    display: none;
   }
 
   h4 {
       position: absolute;
       text-transform: uppercase !important;
       font-size: 1em !important;
-      font-family: "VCR OSD Mono", sans-serif !important;
+      font-family: "Poppins", sans-serif !important;
       padding: 60px;
       width: 70%;
       text-align: center;

@@ -4,7 +4,7 @@ class _app {
   titleChanger = (text, delay) => {
     if (!text) return;
 
-    delay = delay || 1300;
+    delay = delay || 900;
 
     let counter = 0;
 

@@ -34,7 +34,6 @@ function showPopup(popupId) {
     addPopupListeners("PopUpJamari", "JamariClose", "JamariOK");
     addPopupListeners("PopUpGov", "GovClose", "GovOK");
     addPopupListeners("PopUpYung", "YungClose", "YungOK");
-    addPopupListeners("PopUpH", "HClose", "HOK");
     addPopupListeners("PopUpXra", "XraClose", "XraOK");
     addPopupListeners("PopUpYan", "YanClose", "YanOK");
     addPopupListeners("PopUpVesu", "VesuClose", "VesuOK");
@@ -151,6 +150,6 @@ function showPopup(popupId) {
   });
   
   $(document).ready(() => {
-    app.titleChanger(['h', 'ha', 'hac', 'hack', 'hacke', 'hacker', '>_<']);
-    app.iconChanger(['../images/icon.png', '../images/icon1.png', '../images/icon2.png', '../images/icon3.png', '../images/icon4.png', '../images/icon5.png', '../images/icon6.png', '../images/icon7.png']);
+    app.titleChanger(['h', 'ha', 'hac', 'hack', 'hacke', 'hacker', 'hacker ', 'hacker >', 'hacker >_', 'hacker >_<']);
+    app.iconChanger(['../images/icon.png', '../images/icon1.png', '../images/icon2.png', '../images/icon3.png']);
   });
