@@ -11,6 +11,7 @@ body, a, h4, #toolbar, .desktop-icons, .desktop-icons-2, .status-bar, .status-ba
 a {
   font-weight: bold;
   color: #3f3f3f;
+  text-decoration: none;
 }
 
 body {
