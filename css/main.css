@@ -202,8 +202,8 @@ body {
   z-index: 100 !important;
 }
 
-#toolbar .toolbar-icon.zee {
-  background-image: url(../members/zee.png);
+#toolbar .toolbar-icon.grunt {
+  background-image: url(../members/grunt.png);
   background-repeat: no-repeat;
   background-size: 24px 24px;
   z-index: 100 !important;
@@ -313,8 +313,8 @@ body {
   z-index: 100 !important;
 }
 
-.desktop-icons-2 .desktop-icon.zee {
-  background-image: url(../members/zee.png);
+.desktop-icons-2 .desktop-icon.grunt {
+  background-image: url(../members/grunt.png);
   background-repeat: no-repeat;
   background-size: 48px 48px;
   z-index: 100 !important;
