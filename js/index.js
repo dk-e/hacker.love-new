@@ -37,7 +37,9 @@ function showPopup(popupId) {
     addPopupListeners("PopUpXra", "XraClose", "XraOK");
     addPopupListeners("PopUpYan", "YanClose", "YanOK");
     addPopupListeners("PopUpVesu", "VesuClose", "VesuOK");
-    addPopupListeners("PopUpgrunt", "gruntClose", "gruntOK");
+    addPopupListeners("PopUpZee", "ZeeClose", "ZeeOK");
+    addPopupListeners("PopUpBlmz", "BlmzClose", "BlmzOK");
+    addPopupListeners("PopUpSweg", "SwegClose", "SwegOK");
   });
   
   let date = new Date();

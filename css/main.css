@@ -181,7 +181,7 @@ body {
 }
 
 #toolbar .toolbar-icon.zurly {
-  background-image: url(../members/zurly.png);
+  background-image: url(../members/d.png);
   background-repeat: no-repeat;
   background-size: 24px 24px;
   z-index: 100 !important;
@@ -202,8 +202,8 @@ body {
   z-index: 100 !important;
 }
 
-#toolbar .toolbar-icon.grunt {
-  background-image: url(../members/grunt.png);
+#toolbar .toolbar-icon.zee {
+  background-image: url(../members/zee.png);
   background-repeat: no-repeat;
   background-size: 24px 24px;
   z-index: 100 !important;
@@ -239,7 +239,7 @@ body {
 }
 
 .desktop-icons .desktop-icon.zurly {
-  background-image: url(../members/zurly.png);
+  background-image: url(../members/d.png);
   background-repeat: no-repeat;
   background-size: 48px 48px;
   z-index: 100 !important;
@@ -313,8 +313,22 @@ body {
   z-index: 100 !important;
 }
 
-.desktop-icons-2 .desktop-icon.grunt {
-  background-image: url(../members/grunt.png);
+.desktop-icons-2 .desktop-icon.blmz {
+  background-image: url(../members/blmz.png);
+  background-repeat: no-repeat;
+  background-size: 48px 48px;
+  z-index: 100 !important;
+}
+
+.desktop-icons-2 .desktop-icon.sweg {
+  background-image: url(../members/blank.png);
+  background-repeat: no-repeat;
+  background-size: 48px 48px;
+  z-index: 100 !important;
+}
+
+.desktop-icons-2 .desktop-icon.zee {
+  background-image: url(../members/zee.png);
   background-repeat: no-repeat;
   background-size: 48px 48px;
   z-index: 100 !important;
